@@ -1,0 +1,55 @@
+body{
+    background: #f7f090;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+.box {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    background-color: wheat;
+    border-radius: 25px;
+    box-shadow: 0 8px 8px -4px rgb(112, 42, 42);
+    flex-flow: row wrap;
+}
+
+#heading {
+    color: indigo;
+    display: flexbox;
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 15%;
+    border-radius: 25px;
+    box-shadow: 0 8px 8px -4px rgb(228, 224, 2);
+    align-content: center;
+}
+.boxTitle {
+    text-decoration-line: underline;
+    font-style: italic;
+    font-weight: bold;
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(7, 6, 107);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
